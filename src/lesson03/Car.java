@@ -1,10 +1,10 @@
 package lesson03;
 
 public abstract class Car {
-    String manufacturer;
-    int year;
-    String color;
-    private Engine engine;
+    public String manufacturer;
+    public int year;
+    public  String color;
+    public Engine engine;
 
     public Car(String manufacturer, int year, String color) {
         this.manufacturer = manufacturer;
